@@ -1,10 +1,11 @@
-# node-typescript-boilerplate
+# node-ts-boilerplate
 
-[![Sponsor][sponsor-badge]][sponsor]
 [![TypeScript version][ts-badge]][typescript-4-4]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
+
+##### This repository is forked from [jsynowiec/node-typescript-boilerplate][original-repo].
 
 👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
 
@@ -36,7 +37,7 @@ To start, just click the **[Use template][repo-template-action]** link (or the g
 To clone the repository, use the following commands:
 
 ```sh
-git clone https://github.com/jsynowiec/node-typescript-boilerplate
+git clone https://github.com/wtchrs/node-ts-boilerplate
 cd node-typescript-boilerplate
 npm install
 ```
@@ -76,12 +77,13 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 
 ## Backers & Sponsors
 
-Support this project by becoming a [sponsor][sponsor].
+Support [original project][original-repo] by becoming a [sponsor][sponsor] of the original repo's author.
 
 ## License
 
-Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
+Licensed under the APLv2. See the [LICENSE][license] file for details.
 
+[original-repo]: https://github.com/jsynowiec/node-typescript-boilerplate
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.4-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2014.16-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
@@ -90,8 +92,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-4]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-4.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
-[license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE
-[sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
+[license]: https://github.com/wtchrs/node-ts-boilerplate/blob/main/LICENSE
 [sponsor]: https://github.com/sponsors/jsynowiec
 [jest]: https://facebook.github.io/jest/
 [eslint]: https://github.com/eslint/eslint
@@ -101,4 +102,4 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [volta-getting-started]: https://docs.volta.sh/guide/getting-started
 [volta-tomdale]: https://twitter.com/tomdale/status/1162017336699838467?s=20
 [gh-actions]: https://github.com/features/actions
-[repo-template-action]: https://github.com/jsynowiec/node-typescript-boilerplate/generate
+[repo-template-action]: https://github.com/wtchrs/node-ts-boilerplate/generate
