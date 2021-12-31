@@ -1,17 +1,17 @@
 # node-ts-boilerplate
 
-[![TypeScript version][ts-badge]][typescript-4-4]
+[![TypeScript version][ts-badge]][typescript-4-5]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-##### This repository is forked from [jsynowiec/node-typescript-boilerplate][original-repo].
+#### This repository is forked from [jsynowiec/node-typescript-boilerplate][original-repo].
 
-👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
+Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
 
-🏃🏽 Instant Value: All basic tools included and configured:
+Instant Value: All basic tools included and configured:
 
-- [TypeScript][typescript] [4.4][typescript-4-4]
+- [TypeScript][typescript] [4.5][typescript-4-5]
 - [ESLint][eslint] with some initial rules recommendation
 - [Jest][jest] for fast unit testing and code coverage
 - Type definitions for Node.js and Jest
@@ -22,7 +22,7 @@
 - Reproducible environments thanks to [Volta][volta]
 - Example configuration for [GitHub Actions][gh-actions]
 
-🤲 Free as in speech: available under the APLv2 license.
+Free as in speech: available under the APLv2 license.
 
 ## Getting Started
 
@@ -40,15 +40,6 @@ To clone the repository, use the following commands:
 git clone https://github.com/wtchrs/node-ts-boilerplate
 cd node-typescript-boilerplate
 npm install
-```
-
-### Download latest release
-
-Download and unzip the current **main** branch or one of the tags:
-
-```sh
-wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/main.zip -O node-typescript-boilerplate.zip
-unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 ```
 
 ## Available Scripts
@@ -84,13 +75,13 @@ Support [original project][original-repo] by becoming a [sponsor][sponsor] of th
 Licensed under the APLv2. See the [LICENSE][license] file for details.
 
 [original-repo]: https://github.com/jsynowiec/node-typescript-boilerplate
-[ts-badge]: https://img.shields.io/badge/TypeScript-4.4-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2014.16-blue.svg
-[nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
-[gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
-[gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
+[ts-badge]: https://img.shields.io/badge/TypeScript-4.5-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2016.13-blue.svg
+[nodejs]: https://nodejs.org/dist/latest-v16.x/docs/api/
+[gha-badge]: https://github.com/wtchrs/node-ts-boilerplate/actions/workflows/nodejs.yml/badge.svg
+[gha-ci]: https://github.com/wtchrs/node-ts-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
-[typescript-4-4]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-4.html
+[typescript-4-5]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-5.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/wtchrs/node-ts-boilerplate/blob/main/LICENSE
 [sponsor]: https://github.com/sponsors/jsynowiec
